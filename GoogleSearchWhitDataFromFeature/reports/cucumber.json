@@ -1,0 +1,301 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 815787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-la-feature;title-of-your-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 724619947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7061821440,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Diana esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.dianaEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3163853226,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el busca la palabra \"switch\" y \"datos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"datos\"",
+                  "offset": 31
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elBuscaLaPalabraY(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[cucumber Selenium Serenity] - Buscar con Google\u003e but was:\u003c[switchdatos] - Buscar con Google\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat co.com.google.qa.googlesearchwhitdatafeature.stepdefinitions.GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(GoogleSearchWhitDataStepDefinitions.java:59)\r\n\tat ✽.el verifica que la palabra \"switch\" este en los resultados(file:src/test/resources/Feature/GoogleSearchWhitDataFeature.feature:28)\r\n",
+              "duration": 569777920,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "el verifica que la palabra \"switch\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 27
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 143360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.before(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-la-feature;title-of-your-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 707089920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5974612907,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Diana esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.dianaEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3382738347,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el busca la palabra \"sophos\" y \"empresa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sophos\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"empresa\"",
+                  "offset": 31
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elBuscaLaPalabraY(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[cucumber Selenium Serenity] - Buscar con Google\u003e but was:\u003c[sophosempresa] - Buscar con Google\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat co.com.google.qa.googlesearchwhitdatafeature.stepdefinitions.GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(GoogleSearchWhitDataStepDefinitions.java:59)\r\n\tat ✽.el verifica que la palabra \"sophos\" este en los resultados(file:src/test/resources/Feature/GoogleSearchWhitDataFeature.feature:28)\r\n",
+              "duration": 404656640,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "el verifica que la palabra \"sophos\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sophos\"",
+                  "offset": 27
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 145067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.before(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-la-feature;title-of-your-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 663967146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6930819413,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Diana esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchWhitDataStepDefinitions.dianaEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2513218560,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el busca la palabra \"camara\" y \"palabra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camara\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"palabra\"",
+                  "offset": 31
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elBuscaLaPalabraY(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cc[ucumber Selenium Serenity] - Buscar con Google\u003e but was:\u003cc[amarapalabra] - Buscar con Google\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat co.com.google.qa.googlesearchwhitdatafeature.stepdefinitions.GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(GoogleSearchWhitDataStepDefinitions.java:59)\r\n\tat ✽.el verifica que la palabra \"camara\" este en los resultados(file:src/test/resources/Feature/GoogleSearchWhitDataFeature.feature:28)\r\n",
+              "duration": 336216747,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "el verifica que la palabra \"camara\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camara\"",
+                  "offset": 27
+                }
+              ],
+              "location": "GoogleSearchWhitDataStepDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Buscar en Google con datos desde la feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "buscar-en-google-con-datos-desde-la-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/GoogleSearchWhitDataFeature.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

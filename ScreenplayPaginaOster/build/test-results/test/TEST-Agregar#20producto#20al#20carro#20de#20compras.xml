@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Agregar producto al carro de compras" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-11T16:28:06" hostname="LAPTOP-L2D6D9IH" time="35.291">
+  <properties/>
+  <testcase name="Buscar y agregar producto al carro de compras en pagina Oster" classname="Agregar producto al carro de compras" time="35.291"/>
+  <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[abr 11, 2019 11:28:07 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 6487
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+abr 11, 2019 11:28:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>
